@@ -25,6 +25,12 @@ def get_predictions():
         f"TrustServerCertificate=no;"
     )
 
+    import streamlit as st
+
+    st.write("SERVER:", server)
+    st.write("DATABASE:", database)
+    st.write("USERNAME:", username)
+    
     engine = create_engine(
         f"mssql+pyodbc:///?odbc_connect={params}"
     )
