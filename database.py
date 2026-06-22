@@ -16,7 +16,7 @@ def get_predictions():
     password = st.secrets["PASSWORD"]
 
     params = quote_plus(
-        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"DRIVER={{ODBC Driver 18 for SQL Server}};"
         f"SERVER={server};"
         f"DATABASE={database};"
         f"UID={username};"
@@ -46,7 +46,7 @@ def get_month():
     password = st.secrets["PASSWORD"]
 
     params = quote_plus(
-        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"DRIVER={{ODBC Driver 18 for SQL Server}};"
         f"SERVER={server};"
         f"DATABASE={database};"
         f"UID={username};"
@@ -78,7 +78,7 @@ def ninety_day():
     password = st.secrets["PASSWORD"]
 
     params = quote_plus(
-        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"DRIVER={{ODBC Driver 18 for SQL Server}};"
         f"SERVER={server};"
         f"DATABASE={database};"
         f"UID={username};"
@@ -111,7 +111,7 @@ def get_graph_data(): # <================================ Get Data for 90 Day Gr
     password = st.secrets["PASSWORD"]
 
     params = quote_plus(
-        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"DRIVER={{ODBC Driver 18 for SQL Server}};"
         f"SERVER={server};"
         f"DATABASE={database};"
         f"UID={username};"
