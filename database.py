@@ -21,6 +21,8 @@ def get_predictions():
         f"DATABASE={database};"
         f"UID={username};"
         f"PWD={password};"
+        f"Encrypt=yes;"
+        f"TrustServerCertificate=no;"
     )
 
     engine = create_engine(
@@ -49,6 +51,8 @@ def get_month():
         f"DATABASE={database};"
         f"UID={username};"
         f"PWD={password};"
+        f"Encrypt=yes;"
+        f"TrustServerCertificate=no;"
     )
 
     engine = create_engine(
@@ -79,6 +83,8 @@ def ninety_day():
         f"DATABASE={database};"
         f"UID={username};"
         f"PWD={password};"
+        f"Encrypt=yes;"
+        f"TrustServerCertificate=no;"
     )
 
     engine = create_engine(
@@ -110,6 +116,8 @@ def get_graph_data(): # <================================ Get Data for 90 Day Gr
         f"DATABASE={database};"
         f"UID={username};"
         f"PWD={password};"
+        f"Encrypt=yes;"
+        f"TrustServerCertificate=no;"
     )
 
     engine = create_engine(
