@@ -25,7 +25,7 @@ def get_predictions():
         f"TrustServerCertificate=no;"
     )
 
-    import streamlit as st
+    #import streamlit as st
 
     st.write("SERVER:", server)
     st.write("DATABASE:", database)
