@@ -1,14 +1,19 @@
 import pandas as pd
+import streamlit as st
 from sqlalchemy import create_engine
 from urllib.parse import quote_plus
 
+SERVER = st.secrets["SERVER"]
+DATABASE = st.secrets["DATABASE"]
+USERNAME = st.secrets["USERNAME"]
+PASSWORD = st.secrets["PASSWORD"]
 
 def get_predictions():
     
-    server = "dalserver.database.windows.net"
-    database = "DLA_StockPrediction"
-    username = "eDerricho"
-    password = "iLoveazure@33"
+    server = st.secrets["SERVER"]
+    database = st.secrets["DATABASE"]
+    username = st.secrets["USERNAME"]
+    password = st.secrets["PASSWORD"]
 
     params = quote_plus(
         f"DRIVER={{ODBC Driver 17 for SQL Server}};"
@@ -33,10 +38,10 @@ def get_predictions():
 # Monthly Performance
 def get_month():
 
-    server = "dalserver.database.windows.net"
-    database = "DLA_StockPrediction"
-    username = "eDerricho"
-    password = "iLoveazure@33"
+    server = st.secrets["SERVER"]
+    database = st.secrets["DATABASE"]
+    username = st.secrets["USERNAME"]
+    password = st.secrets["PASSWORD"]
 
     params = quote_plus(
         f"DRIVER={{ODBC Driver 17 for SQL Server}};"
@@ -62,10 +67,11 @@ def get_month():
     return df
 
 def ninety_day():
-    server = "dalserver.database.windows.net"
-    database = "DLA_StockPrediction"
-    username = "eDerricho"
-    password = "iLoveazure@33"
+    
+    server = st.secrets["SERVER"]
+    database = st.secrets["DATABASE"]
+    username = st.secrets["USERNAME"]
+    password = st.secrets["PASSWORD"]
 
     params = quote_plus(
         f"DRIVER={{ODBC Driver 17 for SQL Server}};"
@@ -93,10 +99,10 @@ def get_graph_data(): # <================================ Get Data for 90 Day Gr
 
     # =============================
     # ===== Connect to Server =====
-    server = "dalserver.database.windows.net"
-    database = "DLA_StockPrediction"
-    username = "eDerricho"
-    password = "iLoveazure@33"
+    server = st.secrets["SERVER"]
+    database = st.secrets["DATABASE"]
+    username = st.secrets["USERNAME"]
+    password = st.secrets["PASSWORD"]
 
     params = quote_plus(
         f"DRIVER={{ODBC Driver 17 for SQL Server}};"
