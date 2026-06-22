@@ -22,7 +22,7 @@ def get_predictions():
         f"UID={username};"
         f"PWD={password};"
         f"Encrypt=yes;"
-        f"TrustServerCertificate=no;"
+        f"TrustServerCertificate=yes;"
     )
 
     #import streamlit as st
@@ -58,7 +58,7 @@ def get_month():
         f"UID={username};"
         f"PWD={password};"
         f"Encrypt=yes;"
-        f"TrustServerCertificate=no;"
+        f"TrustServerCertificate=yes;"
     )
 
     engine = create_engine(
@@ -90,7 +90,7 @@ def ninety_day():
         f"UID={username};"
         f"PWD={password};"
         f"Encrypt=yes;"
-        f"TrustServerCertificate=no;"
+        f"TrustServerCertificate=yes;"
     )
 
     engine = create_engine(
@@ -123,7 +123,7 @@ def get_graph_data(): # <================================ Get Data for 90 Day Gr
         f"UID={username};"
         f"PWD={password};"
         f"Encrypt=yes;"
-        f"TrustServerCertificate=no;"
+        f"TrustServerCertificate=yes;"
     )
 
     engine = create_engine(
