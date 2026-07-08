@@ -121,7 +121,7 @@ This project is intended for educational and demonstration purposes only. The pr
 
 ### Home Page
 
-![Home Page](images/home.png)
+![Home Page](images/Model Performane Graph.png)
 
 ### 30-Day Model Comparison
 
