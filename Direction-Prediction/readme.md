@@ -119,19 +119,15 @@ This project is intended for educational and demonstration purposes only. The pr
 
 ## Screenshots
 
-### Home Page
+### Title and Ten Day Rolling Accuracy
 
-![Home Page](images/Model Performane Graph.png)
+![Project Title and Ten Day Rolling Accuracy](images/ModelPerformaneGraph.png)
 
-### 30-Day Model Comparison
+### 60-Day Model Comparison
 
-![30 Day Comparison](images/comparison30.png)
-
-### 10-Day Rolling Accuracy
-
-![Rolling Accuracy](images/rolling_accuracy.png)
+![60 Day Comparison](images/ModelPerformanceGraph.png)
 
 ### Overall Model Accuracy
 
-![Overall Accuracy](images/overall_accuracy.png)
+![Overall Accuracy](images/OverallPerformance.png)
 
