@@ -121,13 +121,13 @@ This project is intended for educational and demonstration purposes only. The pr
 
 ### Title and Ten Day Rolling Accuracy
 
-![Project Title and Ten Day Rolling Accuracy](images/ModelPerformaneGraph.png)
+![Project Title and Ten Day Rolling Accuracy](Images/ModelPerformaneGraph.png)
 
 ### 60-Day Model Comparison
 
-![60 Day Comparison](images/ModelPerformanceGraph.png)
+![60 Day Comparison](Images/ModelPerformanceGraph.png)
 
 ### Overall Model Accuracy
 
-![Overall Accuracy](images/OverallPerformance.png)
+![Overall Accuracy](Images/OverallPerformance.png)
 
